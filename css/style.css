@@ -1,0 +1,49 @@
+@import "_global.css";
+
+.hero {
+	max-width: 1300px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 0 20px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-radius: 4px;
+	background-color: #e6e3e3;
+}
+
+.title {
+	font-size: 4.5rem;
+}
+
+.text {
+	font-size: 1.5rem;
+	margin-bottom: 30px;
+}
+
+.hero__btn {
+	font-size: 1.2rem;
+	padding: 12px 20px;
+}
+
+.card__gap:not(:last-child) {
+	margin-right: 20px;
+}
+
+.card-text--bottom {
+	margin-bottom: 15px;
+}
+
+.card-group--bottom {
+	margin-bottom: 30px;
+}
+
+.footer {
+	padding: 30px 0;
+}
+
+@media (max-width: 992px) {
+	.card-group {
+		flex-direction: column;
+	}
+}
